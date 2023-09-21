@@ -159,7 +159,7 @@ float cuboid_diag(float length, float width, float height) {
 	return sqrt(var1 + var2 + var3);
 }
 
-//Calculates the total area of a cilinder given a radius and a height.
+//Calculates the total area of a cylinder given a radius and a height.
 float clndr_total_area(float radius, float height) {
 
 	float var1 = (2.0 * PI) * (radius * height);
@@ -168,22 +168,22 @@ float clndr_total_area(float radius, float height) {
 	return var1 + var2;
 }
 
-//Calculates the curved area of a cilinder given a radius and a height.
+//Calculates the curved area of a cylinder given a radius and a height.
 float clndr_crvd_area(float radius, float height) {
 	return (2.0 * PI) * (radius * height);
 }
 
-//Calculates the base area of a cilinder given a radius.
+//Calculates the base area of a cylinder given a radius.
 float clndr_base_area(float radius) {
 	return PI * pow(radius, 2);
 }
 
-//Calculates the volume of a cilinder given a radius and a height.
+//Calculates the volume of a cylinder given a radius and a height.
 float clndr_vol(float radius, float height) {
 	return (PI * pow(radius, 2)) * height;
 }
 
-//Calculates the radius of a cilinder given a height and a volume.
+//Calculates the radius of a cylinder given a height and a volume.
 float clndr_radius(float height, float volume) {
 	
 	float var1 = PI * height;

@@ -49,8 +49,8 @@ float main() {
 	printf("Area of a cuboid = %f\n", cuboid_area(length, width, height));
 	printf("Volume of a cuboid = %f\n", cuboid_vol(length, width, height));
 	printf("Diagonal of a cuboid = %f\n", cuboid_diag(length, width, height));
-	printf("Total area of a cilinder = %f\n", clndr_total_area(radius, height));
-	printf("Curved area of a cilinder = %f\n", clndr_crvd_area(radius, height));
+	printf("Total area of a cylinder = %f\n", clndr_total_area(radius, height));
+	printf("Curved area of a cylinder = %f\n", clndr_crvd_area(radius, height));
 	printf("Base area of a cylinder = %f\n", clndr_base_area(radius));
 	printf("Volume of a cylinder = %f\n", clndr_vol(radius, height));
 	printf("Radius of a cylinder = %f\n", clndr_radius(height, volume));
