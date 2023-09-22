@@ -88,6 +88,7 @@ float trpzd_area(float base1, float base2, float height) {
 	return ((1.0 / 2.0) * sum * (height));
 }
 
+//Calculates the length of an arc given a radius and an angle in radians.
 float arc_len(float radius, float angle_radians) {
 	return radius * angle_radians;
 }
